@@ -25,6 +25,15 @@ blender-agent-skills (MIT, see `docs/third-party/blender-skills/`). Start any
 Blender task with the `blender-core` skill; it routes to the right specialist
 skill and finishes with `blender-asset-qa`.
 
+## Impeccable UI Design
+
+The `impeccable` skill (v0.1.27) and its 5 `impeccable-*` agents live in
+`.claude/skills/impeccable/` and `.claude/agents/`, copied from Impeccable
+(Apache-2.0, see `docs/third-party/impeccable/`). Use it to design, critique,
+audit or polish frontend UI — menus, HUDs, web game shells, DESIGN.md. Its
+automatic design-check hooks are intentionally **not** installed; run the skill
+on demand.
+
 ## Engine Version Reference
 
 <!-- ENGINE-REFERENCE-IMPORT: the line under this comment is engine-specific,
