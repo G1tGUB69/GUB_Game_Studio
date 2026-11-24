@@ -24,7 +24,8 @@ Each agent owns a specific domain, enforcing separation of concerns and quality.
 28 `blender-*` skills (Blender 5.2 LTS+) live in `.claude/skills/`, merged from
 blender-agent-skills (MIT, see `docs/third-party/blender-skills/`). Start any
 Blender task with the `blender-core` skill; it routes to the right specialist
-skill and finishes with `blender-asset-qa`.
+skill and finishes with `blender-asset-qa`. Read `.claude/docs/blender-pipeline.md`
+on demand for the role split and the engine-to-format table.
 
 ## Impeccable UI Design
 

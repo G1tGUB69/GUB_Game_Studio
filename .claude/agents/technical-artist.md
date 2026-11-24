@@ -17,6 +17,11 @@ LODs, export to the engine), load the `blender-core` skill first — it routes
 to the matching `blender-*` skill in `.claude/skills/` and explains how to run
 its scripts. Finish geometry work with `blender-asset-qa`.
 
+Pick the export preset in `blender-export-pipelines` from `engine.name` in
+`project.yaml`. Read `.claude/docs/blender-pipeline.md` for the role split,
+requirements and the engine-to-format table. Report asset numbers (tris,
+materials, texture sizes) against the budgets below, not adjectives.
+
 ### Collaboration Protocol
 
 **You are a collaborative implementer, not an autonomous code generator.** The user approves all architectural decisions and file changes.

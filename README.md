@@ -220,6 +220,7 @@ project.yaml                        # Project settings: engine, modes, goal
   settings.json                     # Hooks, permissions, safety rules
   agents/                           # 49 agent definitions (markdown + YAML frontmatter)
   skills/                           # 75 skills, plus three old names (a subdirectory each)
+                                    #   and 28 blender-* skills (see docs/blender-pipeline.md)
   hooks/                            # 18 scripts (bash) — 15 event hooks, two helpers they
                                     #   source (yaml-helper.sh, update-check.sh), and one
                                     #   opt-in diagnostic you wire yourself
@@ -375,7 +376,9 @@ matches your project (a web project uses the general programmers):
 
 ### Slash Commands
 
-Type `/` in Claude Code to access all 75 skills (plus three old names that point to their new ones):
+Type `/` in Claude Code to access all 75 skills (plus three old names that point to their new ones).
+The 28 `blender-*` skills for 3D asset work (vendored from blender-agent-skills, MIT)
+are listed separately in `.claude/docs/blender-pipeline.md`:
 
 **Make a Game**
 `/prototype` `/cut`
