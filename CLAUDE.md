@@ -36,6 +36,18 @@ audit or polish frontend UI — menus, HUDs, web game shells, DESIGN.md. Its
 automatic design-check hooks are intentionally **not** installed; run the skill
 on demand.
 
+## Diagram Design
+
+The `diagram-design` skill (v2.6) lives in `.claude/skills/diagram-design/`, with
+7 slash commands in `.claude/commands/`, copied from Diagram Design (MIT, see
+`docs/third-party/diagram-design/`). Use it for editorial HTML/SVG diagrams —
+architecture, flowcharts, state machines, system dependency maps, timelines,
+Gantt, charts — e.g. for ADRs, GDD system maps and milestone docs.
+`/import-mermaid|drawio|excalidraw|plantuml` redraw existing diagrams,
+`/export-diagram` writes SVG/PNG (needs Python + Playwright), and
+`/diagram-doctor` / `/diagram-profile` are its renamed `doctor` / `profile`.
+Its first run asks to set a style guide; keep that in line with the art bible.
+
 ## Engine Version Reference
 
 <!-- ENGINE-REFERENCE-IMPORT: the line under this comment is engine-specific,
