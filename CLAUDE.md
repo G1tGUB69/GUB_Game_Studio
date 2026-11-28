@@ -29,7 +29,7 @@ on demand for the role split and the engine-to-format table.
 
 ## Impeccable UI Design
 
-The `impeccable` skill (v0.1.27) and its 5 `impeccable-*` agents live in
+The `impeccable` skill (v0.1.31) and its 5 `impeccable-*` agents live in
 `.claude/skills/impeccable/` and `.claude/agents/`, copied from Impeccable
 (Apache-2.0, see `docs/third-party/impeccable/`). Use it to design, critique,
 audit or polish frontend UI — menus, HUDs, web game shells, DESIGN.md. Its
